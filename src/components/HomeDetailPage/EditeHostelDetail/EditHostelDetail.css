@@ -1,0 +1,43 @@
+.card-input-head-price{
+    font-size: 23px;
+}
+.card-input-head-price span{
+    font-weight: bold;
+}
+.guests-input-aria{
+    border: 2px solid #E5E5E5;
+    margin: 0px 20px 0px 20px;
+    border-radius: 5px;
+}
+.guest-input-hade-content{
+    margin: 0;
+    color: #464646;
+    font-weight: 400;
+    padding-left: 15px;
+}
+.guests-title{
+    margin: 0px 0px 5px 20px;
+    color: #6C6C6C;
+    font-weight: bold;
+}
+.c-p{
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+.amount-card-div{
+    margin: 0px 30px 0px 20px;
+}
+.card-total-number p{
+    font-weight: bold;
+}
+.amount-card-footer p{
+    text-align: center;
+    font-weight: bold ;
+    color: #6F6F6F;
+}
+.hostel-input-card-date-div{
+    padding: 10px 0px 10px 0px;
+    margin: 0px 20px 7px 20px;
+    border: 2px solid #E5E5E5;
+    border-radius: 5px;
+}

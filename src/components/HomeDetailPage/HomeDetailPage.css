@@ -1,0 +1,64 @@
+.img-div{
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid #ffffff;
+}
+.detail-hostel-title{
+    font-weight: 700;
+    font-size: 30px;
+}
+.hotel-manager-name{
+    color: #615f5f;
+    font-weight: bold;
+}
+.detailLocationTitle{
+    font-weight: 600;
+    font-size: 20px;
+    color: #6F6F6F;
+    margin-bottom: 3px;
+}
+.detail-room-evr{
+    font-weight: 600;
+    font-size: 20px;
+    color: #6F6F6F;
+    margin-bottom: 5px;
+}
+.detail-room-evr span{
+    padding-right: 15px;
+}
+
+.hostel-rules{
+    padding-left: 15px;
+}
+.hostel-rules h5{
+    color: #6F6F6F;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.hostel-rules p{
+    color: #6F6F6F;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.hostel-detail-description{
+    margin-top: 20px;
+    color: #6F6F6F;
+    font-weight: 500;
+    font-size: 18px;
+}
+.description-read-more{
+    color: #0377FF;
+    font-weight: 500;
+    font-size: 18px;
+}
+.hostel-reviews{
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+.hostel-reviews h5{
+    font-weight: bold;
+}
+.main-img{
+    height: 400px;
+}

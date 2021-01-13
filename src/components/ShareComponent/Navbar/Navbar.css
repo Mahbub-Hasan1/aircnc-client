@@ -1,0 +1,56 @@
+.logo {
+    color: #2BDE8C;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.nav-search {
+    font-weight: 500;
+    /* box-shadow: inset 0px 11px 8px -10px #CCC, inset 0px -11px 8px -10px #CCC; */
+    background-color: #ffffff;
+    border: 1px solid #2BDE8C;
+    
+}
+
+.nav-search:focus {
+    outline: none;
+}
+
+.nav-search-btn-right {
+    padding: 5px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.nav-search-btn-left {
+    padding: 6px;
+}
+
+.nav-search-input {
+    padding: 6px 3px 6px 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+hr {
+    height: 5px solid #999393e0;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.nav-link {
+    color: black;
+    font-weight: 600;
+    padding-right: 50px;
+}
+
+.nav-btn {
+    border: none;
+    background-color: #2BDE8C;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.nav-btn:active {
+    background-color: black;
+    border: none;
+}

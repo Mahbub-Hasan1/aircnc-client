@@ -1,0 +1,58 @@
+#hostel-date{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+#hostel-stay-location{
+    font-size: 20px;
+    font-weight: bold;
+}
+.hostel-Search-btn{
+    font-size: 15px;
+    color: #646464;
+    background-color: #ffffff;
+    border: 1px solid #646464;
+    border-radius: 20px;
+    padding: 3px 8px 3px 8px;
+    margin: 3px 3px 3px 3px;
+}
+.hostel-Search-btn:focus{
+    outline: none;
+    box-shadow: 1px 1px 5px 1px #A3A3A3;
+}
+.hostel-Search-btn:hover{
+    box-shadow: 1px 1px 5px 1px #A3A3A3;
+    border: 1px solid #ffffff;
+}
+#hostel-buttons{
+    margin-bottom: 20px;
+}
+.hostel-items-card{
+    transition: 0.1s;
+}
+.hostel-items-card:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 4px 4px #eeecec;
+    border-radius: 10px 10px 10px 10px;
+    /* background-color: #9FCCEE; */
+    transform: scale(1.1);
+}
+.hostel-card-img{
+    border-radius: 20px;
+}
+.hostel-title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.hostel-everything{
+    color: #7B7B7B;
+    margin-bottom: 2px;
+}
+.hostel-status{
+    margin-bottom: 2px;
+}
+
+#hostel-hr{
+    height: 2px;
+    margin: 10px;
+}

@@ -1,0 +1,64 @@
+hr{
+    height: 5px solid #999393e0;
+    margin: 0;
+  }
+  .searchComponentHadeLine{
+    font-weight: 700;
+  }
+  .location{
+    margin-right: 12px;
+    margin-top: 25px;
+    box-shadow: 1px 1px 2px 2px #eeecec;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  .location p{
+    margin-bottom: 5px;
+  }
+  .location input{
+    width: 100%;
+    border: none;
+    color: black;
+  }
+  .location input:focus{
+    outline: none;
+  }
+  .date{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .date-div{
+    margin: 20px 10px 20px 0px;
+    padding: 15px 0px 15px 10px;
+    box-shadow: 1px 1px 2px 2px #eeecec;
+    border-radius: 10px;
+  }
+  
+  .Guests{
+    font-size: 15px;
+    color: #cac2c2;
+    font-weight: 500;
+  }
+  .searchFont{
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .count{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .apply-btn{
+    border: 2px solid #2BDE8C;
+    color: #2BDE8C;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  .apply-btn:hover{
+    background-color: #2BDE8C;
+    color: #ffff;
+  }
+  .search-btn{
+    width: 100%;
+    background-image: linear-gradient(45deg, #2BDE8C, #77EF50);
+  }

@@ -1,24 +1,43 @@
-import logo from './logo.svg';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import Home from './components/Home/Home';
+import MapSearchHostels from './components/MapSearchHostels/MapSearchHostels';
+import { createContext, useState } from 'react';
+import HomeDetailPage from './components/HomeDetailPage/HomeDetailPage';
+import PageNotFound from './components/ShareComponent/PageNotFound/PageNotFound';
+
+export const SearchContext = createContext();
 
 function App() {
+
+  const [searchLocation, setSearchLocation] = useState("");
+  const [homesLocation, setHomesLocation] = useState("")
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <SearchContext.Provider value={{ searchLocation, setSearchLocation, homesLocation, setHomesLocation }}>
+      <div>
+        <Router>
+          <Switch>
+            <Route path="/homes">
+              <MapSearchHostels />
+            </Route>
+            <Route path="/hostel-detail_id=/:id">
+              <HomeDetailPage />
+            </Route>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="*">
+              <PageNotFound />
+            </Route>
+          </Switch>
+        </Router>
+      </div>
+    </SearchContext.Provider>
   );
 }
 
